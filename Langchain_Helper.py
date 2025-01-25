@@ -13,7 +13,7 @@ from  dotenv import load_dotenv
 load_dotenv()
 
 
-os.environ["GOOGLE_API_KEY"]= "AIzaSyB5Lig4aXAUTC6JXZYqBwWOCANtRo6crcg"
+os.environ["GOOGLE_API_KEY"]= ""
 # Create Google Gen LLM model
 llm = GoogleGenerativeAI(google_api_key= os.environ["GOOGLE_API_KEY"], model="gemini-1.5-flash")
 
